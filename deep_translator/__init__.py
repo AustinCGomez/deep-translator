@@ -16,6 +16,7 @@ from deep_translator.pons import PonsTranslator
 from deep_translator.qcri import QcriTranslator
 from deep_translator.tencent import TencentTranslator
 from deep_translator.yandex import YandexTranslator
+from deep_translator.wikimedia import WikimediaTranslator
 
 __author__ = """Nidhal Baccouri"""
 __email__ = "nidhalbacc@gmail.com"
@@ -34,6 +35,7 @@ __all__ = [
     "PapagoTranslator",
     "ChatGptTranslator",
     "TencentTranslator",
+    "WikimediaTranslator",
     "BaiduTranslator",
     "single_detection",
     "batch_detection",

@@ -11,6 +11,7 @@ TENCENT_SECRET_ID_ENV_VAR = "TENCENT_SECRET_ID"
 TENCENT_SECRET_KEY_ENV_VAR = "TENCENT_SECRET_KEY"
 BAIDU_APPID_ENV_VAR = "BAIDU_APPID"
 BAIDU_APPKEY_ENV_VAR = "BAIDU_APPKEY"
+WIKIMEDIA_ENV_VAR ="WIKIMEDIA_API_KEY"
 
 
 BASE_URLS = {
@@ -29,6 +30,7 @@ BASE_URLS = {
     "LIBRE_FREE": "https://libretranslate.de/",
     "TENENT": "https://tmt.tencentcloudapi.com",
     "BAIDU": "https://fanyi-api.baidu.com/api/trans/vip/translate",
+    "WIKIMEDIA": "https://translate.wmcloud.org",
 }
 
 GOOGLE_LANGUAGES_TO_CODES = {
